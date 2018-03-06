@@ -22,10 +22,11 @@ paginate = 10
 	# feel free to add a few information about you and your website.
 	name = "Mateusz Matoszko"
     bio = ""
-	description = "I like to make mobile apps that people enjoy using. Blogging about technical details at nshint.io."
+	description = "I like to make mobile apps people enjoy using. Blogging about technical details at nshint.io."
 	location = "Poland" # optional
 	twitter = "mmatoszko" # optional
 	github = "mmatoszko" # optional
+	linkedin = "mateusz-matoszko-70b2748a" # optional
 
 	# Enable a comment system
 	# You can choose between Disqus or Google Plus by setting comments
