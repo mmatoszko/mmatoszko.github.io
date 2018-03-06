@@ -1,28 +1,14 @@
 # Steam
 
-Steam is a minimal and customizable theme for bloggers and was developed by [Tommaso Barbato](//github.com/epistrephein). He created it as a slightly adapted version of the [Vapor](//github.com/sethlilly/Vapor) Ghost theme by [Seth Lilly](//github.com/sethlilly). Noteworthy features of this Hugo port are the integration of a comment-system either powered by Disqus or Google Plus, the customizable appearance by changing theme colors, support for RSS feeds, syntax highlighting for source code and the optional use of Google Analytics. Enough to read. Let's take the first steps to get started.
+Steam is a minimal and customizable theme for bloggers and was developed by [Tommaso Barbato](//github.com/epistrephein). He created it as a slightly adapted version of the [Vapor](//github.com/sethlilly/Vapor) Ghost theme by [Seth Lilly](//github.com/sethlilly). Noteworthy features of this Hugo port are the integration of a comment-system powered by Disqus, the customizable appearance by changing theme colors, support for RSS feeds, syntax highlighting via Highlight.js for source code and the optional use of Google Analytics. Enough to read. Let's take the first steps to get started.
 
 ![Screenshot](https://raw.githubusercontent.com/digitalcraftsman/hugo-steam-theme/dev/images/screenshot.png)
-
-
-## Contents
-
-- [Installation](#installation)
-- [The config file](#the-config-file)
-- [Add links to the navigation](#add-links-to-the-navigation)
-- [Customize theme colors](#customize-theme-colors)
-- [Comments](#comments)
-- [Nearly finished](#nearly-finished)
-- [Contributing](#contributing)
-- [License](#license)
-- [Annotations](#annotations)
 
 
 ## Installation
 
 Inside the folder of your Hugo site run:
 
-    $ mkdir themes
     $ cd themes
     $ git clone https://github.com/digitalcraftsman/hugo-steam-theme.git
 
@@ -57,15 +43,19 @@ Furthermore you can create your own theme. Under [`layouts/partials/themes`](//g
 
 ## Comments
 
-This theme features a comment system that's either powered by Disqus or Google Plus. Enable one of those services by setting the `comments` variable in the the [`config.toml`](//github.com/digitalcraftsman/hugo-steam-theme/blob/dev/exampleSite/config.toml) to `disqus` or `googleplus`. In order to use Disqus you need to enter your shortname in disqusShortname at the top of the configuration file too.
+This theme features a comment system powered by Disqus. To enable it you have to add your Disqus shortname to the `disqusShortname` variable in the config file.
 
 ## Nearly finished
 
 In order to see your site in action, run Hugo's built-in local server. 
 
-    $ hugo server -w
+    $ hugo server
 
 Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
+
+## Changelog
+
+You can find the latest changes and improvements of this theme in the [CHANGELOG.md](https://github.com/digitalcraftsman/hugo-steam-theme/blob/master/CHANGELOG.md)
 
 
 ## Contributing
@@ -80,4 +70,7 @@ This theme is released under the MIT license. For more information read the [Lic
 
 ## Annotations
 
-Thanks to [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project.
+Thanks to 
+
+- [Steve Francia](//github.com/spf13) for creating Hugo and the awesome community around the project.
+- [Seth Lilly](//github.com/sethlilly) and [Tommaso Barbato](//github.com/epistrephein) for developing the original version(s) of this theme
