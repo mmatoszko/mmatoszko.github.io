@@ -6,7 +6,9 @@
     <description>Recent content on Mateusz Matoszko</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://mateusz.matoszko.pl/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://mateusz.matoszko.pl/index.xml" rel="self" type="application/rss+xml" />
+    
     
   </channel>
 </rss>
