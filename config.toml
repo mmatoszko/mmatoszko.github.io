@@ -1,4 +1,4 @@
-baseurl = "http://mateusz.matoszko.pl/"
+baseurl = "https://mateusz.matoszko.pl/"
 languageCode = "en-us"
 title = "Mateusz Matoszko"
 newContentEditor = "vim"
@@ -22,7 +22,7 @@ paginate = 10
 	# feel free to add a few information about you and your website.
 	name = "Mateusz Matoszko"
     bio = ""
-	description = "I like to make mobile apps people enjoy using. Blogging about technical details at nshint.io."
+	description = "I like to make mobile apps people enjoy using. Blogging about technical details at nshint.github.io."
 	location = "Poland" # optional
 	twitter = "mmatoszko" # optional
 	github = "mmatoszko" # optional
