@@ -12,7 +12,7 @@ paginate = 10
 [params]
 
 	title = "Mateusz Matoszko"
-	subtitle = "Mobile Engineer"
+	subtitle = "Software Engineer"
 	copyright = ""
 
 	# You can choose between green, orange, red and blue.
@@ -22,7 +22,7 @@ paginate = 10
 	# feel free to add a few information about you and your website.
 	name = "Mateusz Matoszko"
 	bio = ""
-	description = "I like to make mobile apps people enjoy using. Blogging about technical details at nshint.github.io."
+	description = "I like to make mobile apps people enjoy using. Blogging about technical details at https://nshint.io"
 	location = "Poland" # optional
 	twitter = "mmatoszko" # optional
 	github = "mmatoszko" # optional
