@@ -23,7 +23,7 @@
       {{ with .Site.Params.bitbucket }}
       <a href="//bitbucket.org/{{ . }}" target="_blank" title="Bitbucket"><i class="fa fa-2x fa-fw fa-bitbucket"></i> <span class="hidden">Bitbucket</span></a>&nbsp;
       {{ end }}
-      {{ with .RSSLink }}
-      <a href="{{ . }}" target="_blank" title="RSS"><i class="fa fa-2x fa-fw fa-rss"></i> <span class="hidden">RSS</span></a>
+      {{ with .OutputFormats.Get "RSS" }}
+      <a href="{{ .RelPermalink }}" target="_blank" title="RSS"><i class="fa fa-2x fa-fw fa-rss"></i> <span class="hidden">RSS</span></a>
       {{ end }}
   </section>
