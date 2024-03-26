@@ -4,7 +4,7 @@ title = "Mateusz Matoszko"
 newContentEditor = "vim"
 theme = "hugo-steam-theme"
 # Enable Google Analytics be inserting your tracking code
-googleAnalytics = "UA-76600443-1"
+# googleAnalytics = ""
 # disqusShortname = "mmatoszko"
 pygmentsStyle = "native"
 paginate = 10
