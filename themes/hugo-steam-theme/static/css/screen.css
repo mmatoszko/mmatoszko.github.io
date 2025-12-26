@@ -293,6 +293,10 @@ img.userimage {
   float: left;
 }
 /* === Footer === */
+img.nshint {
+  width: 40px;
+  vertical-align: sub;
+}
 footer {
   background: rgba(0, 0, 0, 0.05);
   margin: 4em 0 0;

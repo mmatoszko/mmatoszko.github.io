@@ -23,6 +23,12 @@
       {{ with .Site.Params.bitbucket }}
       <a href="//bitbucket.org/{{ . }}" target="_blank" title="Bitbucket"><i class="fa fa-2x fa-fw fa-brands fa-bitbucket"></i> <span class="hidden">Bitbucket</span></a>&nbsp;
       {{ end }}
+      {{ if .Site.Params.nshint }}
+      <a href="//nshint.io" target="_blank" title="NSHint">
+            <img src="images/icons/nshint_icon.svg" alt="NSHint" class="nshint">
+            <span class="hidden">NSHint</span>
+      </a>&nbsp;
+      {{ end }}
       {{ with .OutputFormats.Get "RSS" }}
       <a href="{{ .RelPermalink }}" target="_blank" title="RSS"><i class="fa fa-2x fa-fw fa-rss"></i> <span class="hidden">RSS</span></a>
       {{ end }}

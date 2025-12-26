@@ -26,6 +26,7 @@ pygmentsStyle = "native"
 	description = "I like to make mobile apps people enjoy using. Blogging about technical details at https://nshint.io"
 	location = "Poland, Europe" # optional
 	twitter = "mmatoszko" # optional
+	nshint = true # optional
 	github = "mmatoszko" # optional
 	linkedin = "mateusz-matoszko-70b2748a" # optional
 
